@@ -8,6 +8,7 @@ public class Example1 {
 		System.out.println(metodo1());
 		Example2 e2 = new Example2();
 		System.out.println(e2.metodo1("Ciao da", "Vanni!"));
+		System.out.println(e2.metodo1("Siamo in", "primavera!"));
 	}
 	
 	public static String metodo1() {
